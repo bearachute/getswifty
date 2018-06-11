@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/master.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/.build/checkouts/OpenGL.git-7004480833003842356/Sources/SGLOpenGL/Commands.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Commands.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Commands.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Commands~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Commands.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/.build/checkouts/OpenGL.git-7004480833003842356/Sources/SGLOpenGL/Constants.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Constants.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Constants.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Constants~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Constants.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/.build/checkouts/OpenGL.git-7004480833003842356/Sources/SGLOpenGL/Loaders.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Loaders.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Loaders.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Loaders~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/Loaders.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/.build/checkouts/OpenGL.git-7004480833003842356/Sources/SGLOpenGL/SwiftGL.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/SwiftGL.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/SwiftGL.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/SwiftGL~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLOpenGL.build/SwiftGL.swiftdeps"
+  }
+}

@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "f63e303375a5c01fb4bc5947ad0f7fb4"
+build_time: [1528701913, 299129000]
+inputs:
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/Image.swift": [1528701912, 0]
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/ImageBMP.swift": [1528701912, 0]
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/ImageGIF.swift": [1528701912, 0]
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/ImageLoader.swift": [1528701912, 0]
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/ImagePNG.swift": [1528701912, 0]
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/Inflate.swift": [1528701912, 0]

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/example.build/master.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/main.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/example.build/main.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/example.build/main.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/example.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/example.build/main.swiftdeps"
+  }
+}

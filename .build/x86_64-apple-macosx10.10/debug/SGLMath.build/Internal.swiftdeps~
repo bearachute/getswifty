@@ -1,0 +1,399 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SGLMath"
+provides-nominal:
+- "7SGLMathAAC"
+provides-member:
+- ["7SGLMathAAC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&"
+- !private "&&"
+- !private "&*"
+- !private "&+"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "<"
+- !private "<<"
+- !private "<<="
+- !private "<="
+- !private "=="
+- !private ">="
+- !private ">>"
+- !private ">>="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Double"
+- "Float"
+- !private "FloatLiteralType"
+- "FloatingPointArithmeticType"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- "SGLMath"
+- !private "StringLiteralType"
+- !private "UInt"
+- "UInt16"
+- !private "UInt32"
+- !private "^"
+- !private "^="
+- !private "acos"
+- !private "acosf"
+- !private "acosh"
+- !private "acoshf"
+- !private "asin"
+- !private "asinf"
+- !private "asinh"
+- !private "asinhf"
+- !private "atan"
+- !private "atan2"
+- !private "atan2f"
+- !private "atanf"
+- !private "atanh"
+- !private "atanhf"
+- !private "ceil"
+- !private "ceilf"
+- !private "cos"
+- !private "cosf"
+- !private "cosh"
+- !private "coshf"
+- !private "exp"
+- !private "exp2"
+- !private "exp2f"
+- !private "expf"
+- !private "floor"
+- !private "floorf"
+- !private "fma"
+- !private "fmaf"
+- !private "frexp"
+- !private "frexpf"
+- !private "ldexp"
+- !private "ldexpf"
+- !private "log"
+- !private "log2"
+- !private "log2f"
+- !private "logf"
+- !private "modf"
+- !private "modff"
+- !private "pow"
+- !private "powf"
+- !private "preconditionFailure"
+- !private "round"
+- !private "roundf"
+- !private "sin"
+- !private "sinf"
+- !private "sinh"
+- !private "sinhf"
+- !private "sqrt"
+- !private "sqrtf"
+- !private "tan"
+- !private "tanf"
+- !private "tanh"
+- !private "tanhf"
+- !private "trunc"
+- !private "truncf"
+- !private "withUnsafeMutablePointer"
+- !private "|"
+- !private "|="
+depends-member:
+- !private ["7SGLMath14ArithmeticTypeP", "bitPattern"]
+- !private ["7SGLMath14ArithmeticTypeP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "makeIterator"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "makeIterator"]
+- !private ["s19BinaryFloatingPointP", "bitPattern"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["7SGLMath18BitsOperationsTypeP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "bitPattern"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "makeIterator"]
+- !private ["s10ComparableP", "bitPattern"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "bitPattern"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeIterator"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bitPattern"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "bitPattern"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "makeIterator"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bitPattern"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "makeIterator"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "bitPattern"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "makeIterator"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "bitPattern"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "makeIterator"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bitPattern"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "makeIterator"]
+- !private ["s9EquatableP", "withMemoryRebound"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeIterator"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "bitPattern"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bitPattern"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "bitPattern"]
+- !private ["Sf", "deinit"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "bitPattern"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["7SGLMath27FloatingPointArithmeticTypeP", "bitPattern"]
+- !private ["7SGLMath27FloatingPointArithmeticTypeP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bitPattern"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "withMemoryRebound"]
+- !private ["s16IndexingIteratorV", "next"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["s16IteratorProtocolP", "next"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "bitPattern"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "makeIterator"]
+- !private ["s7NumericP", "bitPattern"]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "makeIterator"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "makeIterator"]
+- !private ["7SGLMathAAC", "Double"]
+- ["7SGLMathAAC", "Float"]
+- ["7SGLMathAAC", "FloatingPointArithmeticType"]
+- ["7SGLMathAAC", "Int"]
+- ["7SGLMathAAC", "Int32"]
+- ["7SGLMathAAC", "SGLacos"]
+- ["7SGLMathAAC", "SGLacosh"]
+- ["7SGLMathAAC", "SGLasin"]
+- ["7SGLMathAAC", "SGLasinh"]
+- ["7SGLMathAAC", "SGLatan"]
+- ["7SGLMathAAC", "SGLatanh"]
+- ["7SGLMathAAC", "SGLceil"]
+- ["7SGLMathAAC", "SGLcos"]
+- ["7SGLMathAAC", "SGLcosh"]
+- ["7SGLMathAAC", "SGLexp"]
+- ["7SGLMathAAC", "SGLexp2"]
+- ["7SGLMathAAC", "SGLfloor"]
+- ["7SGLMathAAC", "SGLfma"]
+- ["7SGLMathAAC", "SGLfrexp"]
+- ["7SGLMathAAC", "SGLldexp"]
+- ["7SGLMathAAC", "SGLlog"]
+- ["7SGLMathAAC", "SGLlog2"]
+- ["7SGLMathAAC", "SGLmodf"]
+- ["7SGLMathAAC", "SGLpow"]
+- ["7SGLMathAAC", "SGLround"]
+- ["7SGLMathAAC", "SGLsin"]
+- ["7SGLMathAAC", "SGLsinh"]
+- ["7SGLMathAAC", "SGLsqrt"]
+- ["7SGLMathAAC", "SGLtan"]
+- ["7SGLMathAAC", "SGLtanh"]
+- ["7SGLMathAAC", "SGLtrunc"]
+- !private ["7SGLMathAAC", "UInt"]
+- ["7SGLMathAAC", "UInt16"]
+- !private ["7SGLMathAAC", "UInt32"]
+- !private ["7SGLMathAAC", "acos"]
+- !private ["7SGLMathAAC", "acosf"]
+- !private ["7SGLMathAAC", "acosh"]
+- !private ["7SGLMathAAC", "acoshf"]
+- !private ["7SGLMathAAC", "asin"]
+- !private ["7SGLMathAAC", "asinf"]
+- !private ["7SGLMathAAC", "asinh"]
+- !private ["7SGLMathAAC", "asinhf"]
+- !private ["7SGLMathAAC", "atan"]
+- !private ["7SGLMathAAC", "atan2"]
+- !private ["7SGLMathAAC", "atan2f"]
+- !private ["7SGLMathAAC", "atanf"]
+- !private ["7SGLMathAAC", "atanh"]
+- !private ["7SGLMathAAC", "atanhf"]
+- !private ["7SGLMathAAC", "ceil"]
+- !private ["7SGLMathAAC", "ceilf"]
+- !private ["7SGLMathAAC", "cos"]
+- !private ["7SGLMathAAC", "cosf"]
+- !private ["7SGLMathAAC", "cosh"]
+- !private ["7SGLMathAAC", "coshf"]
+- ["7SGLMathAAC", "deinit"]
+- !private ["7SGLMathAAC", "exp"]
+- !private ["7SGLMathAAC", "exp2"]
+- !private ["7SGLMathAAC", "exp2f"]
+- !private ["7SGLMathAAC", "expf"]
+- ["7SGLMathAAC", "floatFromHalf"]
+- !private ["7SGLMathAAC", "floor"]
+- !private ["7SGLMathAAC", "floorf"]
+- !private ["7SGLMathAAC", "fma"]
+- !private ["7SGLMathAAC", "fmaf"]
+- !private ["7SGLMathAAC", "frexp"]
+- !private ["7SGLMathAAC", "frexpf"]
+- ["7SGLMathAAC", "halfFromFloat"]
+- ["7SGLMathAAC", "hash"]
+- ["7SGLMathAAC", "init"]
+- !private ["7SGLMathAAC", "ldexp"]
+- !private ["7SGLMathAAC", "ldexpf"]
+- !private ["7SGLMathAAC", "log"]
+- !private ["7SGLMathAAC", "log2"]
+- !private ["7SGLMathAAC", "log2f"]
+- !private ["7SGLMathAAC", "logf"]
+- !private ["7SGLMathAAC", "modf"]
+- !private ["7SGLMathAAC", "modff"]
+- !private ["7SGLMathAAC", "pow"]
+- !private ["7SGLMathAAC", "powf"]
+- !private ["7SGLMathAAC", "preconditionFailure"]
+- !private ["7SGLMathAAC", "round"]
+- !private ["7SGLMathAAC", "roundf"]
+- !private ["7SGLMathAAC", "sin"]
+- !private ["7SGLMathAAC", "sinf"]
+- !private ["7SGLMathAAC", "sinh"]
+- !private ["7SGLMathAAC", "sinhf"]
+- !private ["7SGLMathAAC", "sqrt"]
+- !private ["7SGLMathAAC", "sqrtf"]
+- !private ["7SGLMathAAC", "tan"]
+- !private ["7SGLMathAAC", "tanf"]
+- !private ["7SGLMathAAC", "tanh"]
+- !private ["7SGLMathAAC", "tanhf"]
+- !private ["7SGLMathAAC", "trunc"]
+- !private ["7SGLMathAAC", "truncf"]
+- !private ["7SGLMathAAC", "withUnsafeMutablePointer"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "makeIterator"]
+- !private ["s8SequenceP", "next"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "bitPattern"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "bitPattern"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "withMemoryRebound"]
+- !private ["Su", "deinit"]
+- !private ["Su", "init"]
+- !private ["s6UInt16V", "deinit"]
+- !private ["s6UInt16V", "init"]
+- !private ["s6UInt32V", "deinit"]
+- !private ["s6UInt32V", "init"]
+- !private ["Sp", "withMemoryRebound"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "makeIterator"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "bitPattern"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "bitPattern"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "makeIterator"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "bitPattern"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bitPattern"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["s14_StringElementP", "init"]
+depends-nominal:
+- !private "7SGLMath14ArithmeticTypeP"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "7SGLMath18BitsOperationsTypeP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- !private "7SGLMath27FloatingPointArithmeticTypeP"
+- !private "s8HashableP"
+- !private "s16IndexingIteratorV"
+- !private "Si"
+- !private "s16IteratorProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "7SGLMathAAC"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "Su"
+- !private "s6UInt16V"
+- !private "s6UInt32V"
+- !private "Sp"
+- !private "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "c101cf377689b8da7342699309a44f18"

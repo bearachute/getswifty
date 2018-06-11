@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "73244432a4f9269ae42b83e2a2b09180"
+build_time: [1528702288, 671290000]
+inputs:
+  "/Users/skt/Desktop/getswifty/main.swift": [1528701433, 0]

@@ -1,0 +1,391 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Vector4b"
+- "=="
+provides-nominal:
+- "7SGLMath8Vector4bV"
+provides-member:
+- ["7SGLMath8Vector4bV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "+"
+- "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "BooleanVectorType"
+- !private "FloatLiteralType"
+- "IndexingIterator"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "SGLMath"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "Vector2b"
+- "Vector3b"
+- "Vector4b"
+- "VectorType"
+- !private "preconditionFailure"
+- !private "type"
+- !private "~="
+depends-member:
+- !private ["Sa", "makeIterator"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "makeIterator"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "hashValue"]
+- ["7SGLMath17BooleanVectorTypeP", "BooleanVector"]
+- ["7SGLMath17BooleanVectorTypeP", "Element"]
+- ["7SGLMath17BooleanVectorTypeP", "Iterator"]
+- !private ["7SGLMath17BooleanVectorTypeP", "SGLMath"]
+- !private ["7SGLMath17BooleanVectorTypeP", "String"]
+- ["7SGLMath17BooleanVectorTypeP", "SubSequence"]
+- ["7SGLMath17BooleanVectorTypeP", ""]
+- ["7SGLMath17BooleanVectorTypeP", "_Default_Element"]
+- ["7SGLMath17BooleanVectorTypeP", "_Default_Iterator"]
+- ["7SGLMath17BooleanVectorTypeP", "_Default_SubSequence"]
+- ["7SGLMath17BooleanVectorTypeP", "_copyContents"]
+- ["7SGLMath17BooleanVectorTypeP", "_copyToContiguousArray"]
+- ["7SGLMath17BooleanVectorTypeP", "_customContainsEquatableElement"]
+- ["7SGLMath17BooleanVectorTypeP", "_preprocessingPass"]
+- ["7SGLMath17BooleanVectorTypeP", "debugDescription"]
+- ["7SGLMath17BooleanVectorTypeP", "drop"]
+- ["7SGLMath17BooleanVectorTypeP", "dropFirst"]
+- ["7SGLMath17BooleanVectorTypeP", "dropLast"]
+- !private ["7SGLMath17BooleanVectorTypeP", "elements"]
+- ["7SGLMath17BooleanVectorTypeP", "filter"]
+- ["7SGLMath17BooleanVectorTypeP", "forEach"]
+- ["7SGLMath17BooleanVectorTypeP", "hashValue"]
+- ["7SGLMath17BooleanVectorTypeP", "init"]
+- ["7SGLMath17BooleanVectorTypeP", "makeIterator"]
+- ["7SGLMath17BooleanVectorTypeP", "map"]
+- !private ["7SGLMath17BooleanVectorTypeP", "preconditionFailure"]
+- ["7SGLMath17BooleanVectorTypeP", "prefix"]
+- ["7SGLMath17BooleanVectorTypeP", "split"]
+- ["7SGLMath17BooleanVectorTypeP", "subscript"]
+- ["7SGLMath17BooleanVectorTypeP", "suffix"]
+- !private ["7SGLMath17BooleanVectorTypeP", "type"]
+- ["7SGLMath17BooleanVectorTypeP", "underestimatedCount"]
+- !private ["7SGLMath17BooleanVectorTypeP", "w"]
+- !private ["7SGLMath17BooleanVectorTypeP", "x"]
+- !private ["7SGLMath17BooleanVectorTypeP", "y"]
+- !private ["7SGLMath17BooleanVectorTypeP", "z"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "makeIterator"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "BooleanVector"]
+- ["s28CustomDebugStringConvertibleP", "Element"]
+- ["s28CustomDebugStringConvertibleP", "Iterator"]
+- !private ["s28CustomDebugStringConvertibleP", "SGLMath"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "SubSequence"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_Element"]
+- ["s28CustomDebugStringConvertibleP", "_Default_Iterator"]
+- ["s28CustomDebugStringConvertibleP", "_Default_SubSequence"]
+- ["s28CustomDebugStringConvertibleP", "_copyContents"]
+- ["s28CustomDebugStringConvertibleP", "_copyToContiguousArray"]
+- ["s28CustomDebugStringConvertibleP", "_customContainsEquatableElement"]
+- ["s28CustomDebugStringConvertibleP", "_preprocessingPass"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "drop"]
+- ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- ["s28CustomDebugStringConvertibleP", "dropLast"]
+- !private ["s28CustomDebugStringConvertibleP", "elements"]
+- ["s28CustomDebugStringConvertibleP", "filter"]
+- ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "makeIterator"]
+- ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "preconditionFailure"]
+- ["s28CustomDebugStringConvertibleP", "prefix"]
+- ["s28CustomDebugStringConvertibleP", "split"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- ["s28CustomDebugStringConvertibleP", "underestimatedCount"]
+- !private ["s28CustomDebugStringConvertibleP", "w"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "z"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "makeIterator"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "makeIterator"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "makeIterator"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "makeIterator"]
+- ["s9EquatableP", "BooleanVector"]
+- ["s9EquatableP", "Element"]
+- ["s9EquatableP", "Iterator"]
+- !private ["s9EquatableP", "SGLMath"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", "SubSequence"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_Element"]
+- ["s9EquatableP", "_Default_Iterator"]
+- ["s9EquatableP", "_Default_SubSequence"]
+- ["s9EquatableP", "_copyContents"]
+- ["s9EquatableP", "_copyToContiguousArray"]
+- ["s9EquatableP", "_customContainsEquatableElement"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "_preprocessingPass"]
+- ["s9EquatableP", "debugDescription"]
+- ["s9EquatableP", "drop"]
+- ["s9EquatableP", "dropFirst"]
+- ["s9EquatableP", "dropLast"]
+- !private ["s9EquatableP", "elements"]
+- ["s9EquatableP", "filter"]
+- ["s9EquatableP", "forEach"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "makeIterator"]
+- ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "preconditionFailure"]
+- ["s9EquatableP", "prefix"]
+- ["s9EquatableP", "split"]
+- ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "suffix"]
+- !private ["s9EquatableP", "type"]
+- ["s9EquatableP", "underestimatedCount"]
+- !private ["s9EquatableP", "w"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "y"]
+- !private ["s9EquatableP", "z"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeIterator"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "hashValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "BooleanVector"]
+- ["s8HashableP", "Element"]
+- ["s8HashableP", "Iterator"]
+- !private ["s8HashableP", "SGLMath"]
+- !private ["s8HashableP", "String"]
+- ["s8HashableP", "SubSequence"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_Element"]
+- ["s8HashableP", "_Default_Iterator"]
+- ["s8HashableP", "_Default_SubSequence"]
+- ["s8HashableP", "_copyContents"]
+- ["s8HashableP", "_copyToContiguousArray"]
+- ["s8HashableP", "_customContainsEquatableElement"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "_preprocessingPass"]
+- ["s8HashableP", "debugDescription"]
+- ["s8HashableP", "drop"]
+- ["s8HashableP", "dropFirst"]
+- ["s8HashableP", "dropLast"]
+- !private ["s8HashableP", "elements"]
+- ["s8HashableP", "filter"]
+- ["s8HashableP", "forEach"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "makeIterator"]
+- ["s8HashableP", "map"]
+- !private ["s8HashableP", "preconditionFailure"]
+- ["s8HashableP", "prefix"]
+- ["s8HashableP", "split"]
+- ["s8HashableP", "subscript"]
+- ["s8HashableP", "suffix"]
+- !private ["s8HashableP", "type"]
+- ["s8HashableP", "underestimatedCount"]
+- !private ["s8HashableP", "w"]
+- !private ["s8HashableP", "x"]
+- !private ["s8HashableP", "y"]
+- !private ["s8HashableP", "z"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["7SGLMath10MatrixTypeP", "subscript"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "makeIterator"]
+- !private ["s22RandomAccessCollectionP", "makeIterator"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "makeIterator"]
+- !private ["7SGLMathAAC", "hash"]
+- ["s8SequenceP", "BooleanVector"]
+- ["s8SequenceP", "Element"]
+- ["s8SequenceP", "Iterator"]
+- !private ["s8SequenceP", "SGLMath"]
+- !private ["s8SequenceP", "String"]
+- ["s8SequenceP", "SubSequence"]
+- ["s8SequenceP", ""]
+- ["s8SequenceP", "_Default_Element"]
+- ["s8SequenceP", "_Default_Iterator"]
+- ["s8SequenceP", "_Default_SubSequence"]
+- ["s8SequenceP", "_copyContents"]
+- ["s8SequenceP", "_copyToContiguousArray"]
+- ["s8SequenceP", "_customContainsEquatableElement"]
+- ["s8SequenceP", "_preprocessingPass"]
+- ["s8SequenceP", "debugDescription"]
+- ["s8SequenceP", "drop"]
+- ["s8SequenceP", "dropFirst"]
+- ["s8SequenceP", "dropLast"]
+- !private ["s8SequenceP", "elements"]
+- ["s8SequenceP", "filter"]
+- ["s8SequenceP", "forEach"]
+- ["s8SequenceP", "hashValue"]
+- ["s8SequenceP", "init"]
+- ["s8SequenceP", "makeIterator"]
+- ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "preconditionFailure"]
+- ["s8SequenceP", "prefix"]
+- ["s8SequenceP", "split"]
+- ["s8SequenceP", "subscript"]
+- ["s8SequenceP", "suffix"]
+- !private ["s8SequenceP", "type"]
+- ["s8SequenceP", "underestimatedCount"]
+- !private ["s8SequenceP", "w"]
+- !private ["s8SequenceP", "x"]
+- !private ["s8SequenceP", "y"]
+- !private ["s8SequenceP", "z"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["7SGLMath8Vector2bV", "x"]
+- !private ["7SGLMath8Vector2bV", "y"]
+- !private ["7SGLMath8Vector3bV", "x"]
+- !private ["7SGLMath8Vector3bV", "y"]
+- !private ["7SGLMath8Vector3bV", "z"]
+- ["7SGLMath8Vector4bV", "=="]
+- ["7SGLMath8Vector4bV", "Array"]
+- ["7SGLMath8Vector4bV", "Bool"]
+- ["7SGLMath8Vector4bV", "BooleanVector"]
+- ["7SGLMath8Vector4bV", "Element"]
+- ["7SGLMath8Vector4bV", "IndexingIterator"]
+- ["7SGLMath8Vector4bV", "Int"]
+- ["7SGLMath8Vector4bV", "Iterator"]
+- !private ["7SGLMath8Vector4bV", "SGLMath"]
+- ["7SGLMath8Vector4bV", "String"]
+- ["7SGLMath8Vector4bV", "SubSequence"]
+- ["7SGLMath8Vector4bV", "Vector2b"]
+- ["7SGLMath8Vector4bV", "Vector3b"]
+- ["7SGLMath8Vector4bV", "Vector4b"]
+- ["7SGLMath8Vector4bV", "VectorType"]
+- ["7SGLMath8Vector4bV", "_Default_Element"]
+- ["7SGLMath8Vector4bV", "_Default_Iterator"]
+- ["7SGLMath8Vector4bV", "_Default_SubSequence"]
+- ["7SGLMath8Vector4bV", "_copyContents"]
+- ["7SGLMath8Vector4bV", "_copyToContiguousArray"]
+- ["7SGLMath8Vector4bV", "_customContainsEquatableElement"]
+- ["7SGLMath8Vector4bV", "_preprocessingPass"]
+- ["7SGLMath8Vector4bV", "a"]
+- ["7SGLMath8Vector4bV", "b"]
+- ["7SGLMath8Vector4bV", "debugDescription"]
+- ["7SGLMath8Vector4bV", "deinit"]
+- ["7SGLMath8Vector4bV", "drop"]
+- ["7SGLMath8Vector4bV", "dropFirst"]
+- ["7SGLMath8Vector4bV", "dropLast"]
+- ["7SGLMath8Vector4bV", "elements"]
+- ["7SGLMath8Vector4bV", "filter"]
+- ["7SGLMath8Vector4bV", "forEach"]
+- ["7SGLMath8Vector4bV", "g"]
+- ["7SGLMath8Vector4bV", "hashValue"]
+- ["7SGLMath8Vector4bV", "init"]
+- ["7SGLMath8Vector4bV", "makeIterator"]
+- ["7SGLMath8Vector4bV", "map"]
+- ["7SGLMath8Vector4bV", "p"]
+- !private ["7SGLMath8Vector4bV", "preconditionFailure"]
+- ["7SGLMath8Vector4bV", "prefix"]
+- ["7SGLMath8Vector4bV", "q"]
+- ["7SGLMath8Vector4bV", "r"]
+- ["7SGLMath8Vector4bV", "s"]
+- ["7SGLMath8Vector4bV", "split"]
+- ["7SGLMath8Vector4bV", "subscript"]
+- ["7SGLMath8Vector4bV", "suffix"]
+- ["7SGLMath8Vector4bV", "t"]
+- !private ["7SGLMath8Vector4bV", "type"]
+- ["7SGLMath8Vector4bV", "underestimatedCount"]
+- ["7SGLMath8Vector4bV", "w"]
+- ["7SGLMath8Vector4bV", "x"]
+- ["7SGLMath8Vector4bV", "y"]
+- ["7SGLMath8Vector4bV", "z"]
+- !private ["7SGLMath10VectorTypeP", "subscript"]
+- !private ["s14_ArrayProtocolP", "makeIterator"]
+- !private ["s24_DestructorSafeContainerP", "makeIterator"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "hashValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "7SGLMath17BooleanVectorTypeP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "7SGLMath10MatrixTypeP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "7SGLMathAAC"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7SGLMath8Vector2bV"
+- !private "7SGLMath8Vector3bV"
+- "7SGLMath8Vector4bV"
+- !private "7SGLMath10VectorTypeP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "a29ede0ed882bb3db115053bd54db8ee"

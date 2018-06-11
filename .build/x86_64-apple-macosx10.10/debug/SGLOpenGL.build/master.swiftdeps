@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "9909b02992e75308e9f9ed15f3c5e98d"
+build_time: [1528702239, 842779000]
+inputs:
+  "/Users/skt/Desktop/getswifty/.build/checkouts/OpenGL.git-7004480833003842356/Sources/SGLOpenGL/Commands.swift": [1528701911, 0]
+  "/Users/skt/Desktop/getswifty/.build/checkouts/OpenGL.git-7004480833003842356/Sources/SGLOpenGL/Constants.swift": [1528701911, 0]
+  "/Users/skt/Desktop/getswifty/.build/checkouts/OpenGL.git-7004480833003842356/Sources/SGLOpenGL/Loaders.swift": [1528701911, 0]
+  "/Users/skt/Desktop/getswifty/.build/checkouts/OpenGL.git-7004480833003842356/Sources/SGLOpenGL/SwiftGL.swift": [1528701911, 0]

@@ -1,0 +1,633 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Matrix4x4"
+- "=="
+- "*"
+- "*"
+- "*"
+- "*"
+- "*"
+- "*="
+- "/"
+- "/"
+- "/"
+- "/="
+provides-nominal:
+- "7SGLMath9Matrix4x4V"
+provides-member:
+- ["7SGLMath9Matrix4x4V", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "%"
+- "%="
+- !private "&&"
+- "*"
+- "*="
+- "+"
+- "++"
+- "+="
+- "-"
+- "--"
+- "-="
+- "/"
+- "/="
+- "=="
+- "ArithmeticType"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "Double"
+- "Float"
+- !private "FloatLiteralType"
+- "IndexingIterator"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- !private "IntegerLiteralType"
+- "Matrix2x2"
+- "Matrix2x3"
+- "Matrix2x4"
+- "Matrix3x2"
+- "Matrix3x3"
+- "Matrix3x4"
+- "Matrix4x2"
+- "Matrix4x3"
+- "Matrix4x4"
+- "MatrixType"
+- !private "SGLMath"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- !private "UnicodeScalarType"
+- "Vector4"
+- !private "double2x4"
+- !private "double3x4"
+- !private "double4"
+- !private "double4x4"
+- !private "float2x4"
+- !private "float3x4"
+- !private "float4"
+- !private "float4x4"
+- !private "preconditionFailure"
+- !private "type"
+- !private "unsafeBitCast"
+- !private "~="
+depends-member:
+- !private ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "makeIterator"]
+- !private ["Sa", "map"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s23BidirectionalCollectionP", "makeIterator"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "makeIterator"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- ["s28CustomDebugStringConvertibleP", "Element"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- ["s28CustomDebugStringConvertibleP", "Iterator"]
+- !private ["s28CustomDebugStringConvertibleP", "Matrix2x4"]
+- !private ["s28CustomDebugStringConvertibleP", "Matrix3x4"]
+- !private ["s28CustomDebugStringConvertibleP", "Matrix4x4"]
+- !private ["s28CustomDebugStringConvertibleP", "SGLMath"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "SubSequence"]
+- !private ["s28CustomDebugStringConvertibleP", "T"]
+- !private ["s28CustomDebugStringConvertibleP", "Vector4"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_Iterator"]
+- ["s28CustomDebugStringConvertibleP", "_Default_SubSequence"]
+- ["s28CustomDebugStringConvertibleP", "_copyContents"]
+- ["s28CustomDebugStringConvertibleP", "_copyToContiguousArray"]
+- ["s28CustomDebugStringConvertibleP", "_customContainsEquatableElement"]
+- ["s28CustomDebugStringConvertibleP", "_preprocessingPass"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "double2x4"]
+- !private ["s28CustomDebugStringConvertibleP", "double3x4"]
+- !private ["s28CustomDebugStringConvertibleP", "double4"]
+- !private ["s28CustomDebugStringConvertibleP", "double4x4"]
+- ["s28CustomDebugStringConvertibleP", "drop"]
+- ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- ["s28CustomDebugStringConvertibleP", "dropLast"]
+- ["s28CustomDebugStringConvertibleP", "elements"]
+- ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "float2x4"]
+- !private ["s28CustomDebugStringConvertibleP", "float3x4"]
+- !private ["s28CustomDebugStringConvertibleP", "float4"]
+- !private ["s28CustomDebugStringConvertibleP", "float4x4"]
+- ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inverse"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- ["s28CustomDebugStringConvertibleP", "makeIterator"]
+- ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "preconditionFailure"]
+- ["s28CustomDebugStringConvertibleP", "prefix"]
+- ["s28CustomDebugStringConvertibleP", "split"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- ["s28CustomDebugStringConvertibleP", "underestimatedCount"]
+- !private ["s28CustomDebugStringConvertibleP", "unsafeBitCast"]
+- !private ["s28CustomDebugStringConvertibleP", "w"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "z"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "makeIterator"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "makeIterator"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "makeIterator"]
+- !private ["s9DecodableP", "map"]
+- ["Sd", "deinit"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "makeIterator"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EquatableP", "Array"]
+- !private ["s9EquatableP", "Double"]
+- ["s9EquatableP", "Element"]
+- !private ["s9EquatableP", "Float"]
+- ["s9EquatableP", "Iterator"]
+- !private ["s9EquatableP", "Matrix2x4"]
+- !private ["s9EquatableP", "Matrix3x4"]
+- !private ["s9EquatableP", "Matrix4x4"]
+- !private ["s9EquatableP", "SGLMath"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", "SubSequence"]
+- !private ["s9EquatableP", "T"]
+- !private ["s9EquatableP", "Vector4"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_Iterator"]
+- ["s9EquatableP", "_Default_SubSequence"]
+- ["s9EquatableP", "_copyContents"]
+- ["s9EquatableP", "_copyToContiguousArray"]
+- ["s9EquatableP", "_customContainsEquatableElement"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "_preprocessingPass"]
+- ["s9EquatableP", "debugDescription"]
+- !private ["s9EquatableP", "double2x4"]
+- !private ["s9EquatableP", "double3x4"]
+- !private ["s9EquatableP", "double4"]
+- !private ["s9EquatableP", "double4x4"]
+- ["s9EquatableP", "drop"]
+- ["s9EquatableP", "dropFirst"]
+- ["s9EquatableP", "dropLast"]
+- ["s9EquatableP", "elements"]
+- ["s9EquatableP", "filter"]
+- !private ["s9EquatableP", "float2x4"]
+- !private ["s9EquatableP", "float3x4"]
+- !private ["s9EquatableP", "float4"]
+- !private ["s9EquatableP", "float4x4"]
+- ["s9EquatableP", "forEach"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "inverse"]
+- !private ["s9EquatableP", "joined"]
+- ["s9EquatableP", "makeIterator"]
+- ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "preconditionFailure"]
+- ["s9EquatableP", "prefix"]
+- ["s9EquatableP", "split"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "suffix"]
+- !private ["s9EquatableP", "type"]
+- ["s9EquatableP", "underestimatedCount"]
+- !private ["s9EquatableP", "unsafeBitCast"]
+- !private ["s9EquatableP", "w"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "y"]
+- !private ["s9EquatableP", "z"]
+- !private ["s25ExpressibleByArrayLiteralP", "elements"]
+- !private ["s25ExpressibleByArrayLiteralP", "hashValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeIterator"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "w"]
+- !private ["s25ExpressibleByArrayLiteralP", "x"]
+- !private ["s25ExpressibleByArrayLiteralP", "y"]
+- !private ["s25ExpressibleByArrayLiteralP", "z"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["Sf", "deinit"]
+- !private ["s8HashableP", "Array"]
+- !private ["s8HashableP", "Double"]
+- ["s8HashableP", "Element"]
+- !private ["s8HashableP", "Float"]
+- ["s8HashableP", "Iterator"]
+- !private ["s8HashableP", "Matrix2x4"]
+- !private ["s8HashableP", "Matrix3x4"]
+- !private ["s8HashableP", "Matrix4x4"]
+- !private ["s8HashableP", "SGLMath"]
+- !private ["s8HashableP", "String"]
+- ["s8HashableP", "SubSequence"]
+- !private ["s8HashableP", "T"]
+- !private ["s8HashableP", "Vector4"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_Iterator"]
+- ["s8HashableP", "_Default_SubSequence"]
+- ["s8HashableP", "_copyContents"]
+- ["s8HashableP", "_copyToContiguousArray"]
+- ["s8HashableP", "_customContainsEquatableElement"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "_preprocessingPass"]
+- ["s8HashableP", "debugDescription"]
+- !private ["s8HashableP", "double2x4"]
+- !private ["s8HashableP", "double3x4"]
+- !private ["s8HashableP", "double4"]
+- !private ["s8HashableP", "double4x4"]
+- ["s8HashableP", "drop"]
+- ["s8HashableP", "dropFirst"]
+- ["s8HashableP", "dropLast"]
+- ["s8HashableP", "elements"]
+- ["s8HashableP", "filter"]
+- !private ["s8HashableP", "float2x4"]
+- !private ["s8HashableP", "float3x4"]
+- !private ["s8HashableP", "float4"]
+- !private ["s8HashableP", "float4x4"]
+- ["s8HashableP", "forEach"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "inverse"]
+- ["s8HashableP", "makeIterator"]
+- ["s8HashableP", "map"]
+- !private ["s8HashableP", "preconditionFailure"]
+- ["s8HashableP", "prefix"]
+- ["s8HashableP", "split"]
+- !private ["s8HashableP", "subscript"]
+- ["s8HashableP", "suffix"]
+- !private ["s8HashableP", "type"]
+- ["s8HashableP", "underestimatedCount"]
+- !private ["s8HashableP", "unsafeBitCast"]
+- !private ["s8HashableP", "w"]
+- !private ["s8HashableP", "x"]
+- !private ["s8HashableP", "y"]
+- !private ["s8HashableP", "z"]
+- ["Si", "deinit"]
+- ["s5Int16V", "deinit"]
+- ["s5Int32V", "deinit"]
+- ["s5Int64V", "deinit"]
+- ["s4Int8V", "deinit"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["7SGLMath9Matrix2x2V", "subscript"]
+- !private ["7SGLMath9Matrix2x3V", "subscript"]
+- !private ["7SGLMath9Matrix2x4V", "deinit"]
+- !private ["7SGLMath9Matrix2x4V", "init"]
+- !private ["7SGLMath9Matrix2x4V", "subscript"]
+- !private ["7SGLMath9Matrix3x2V", "subscript"]
+- !private ["7SGLMath9Matrix3x3V", "subscript"]
+- !private ["7SGLMath9Matrix3x4V", "deinit"]
+- !private ["7SGLMath9Matrix3x4V", "init"]
+- !private ["7SGLMath9Matrix3x4V", "subscript"]
+- !private ["7SGLMath9Matrix4x2V", "subscript"]
+- !private ["7SGLMath9Matrix4x3V", "subscript"]
+- ["7SGLMath9Matrix4x4V", "*"]
+- ["7SGLMath9Matrix4x4V", "*="]
+- ["7SGLMath9Matrix4x4V", "/"]
+- ["7SGLMath9Matrix4x4V", "/="]
+- ["7SGLMath9Matrix4x4V", "=="]
+- ["7SGLMath9Matrix4x4V", "Array"]
+- ["7SGLMath9Matrix4x4V", "Bool"]
+- ["7SGLMath9Matrix4x4V", "Double"]
+- ["7SGLMath9Matrix4x4V", "Element"]
+- ["7SGLMath9Matrix4x4V", "Float"]
+- ["7SGLMath9Matrix4x4V", "IndexingIterator"]
+- ["7SGLMath9Matrix4x4V", "Int"]
+- ["7SGLMath9Matrix4x4V", "Int16"]
+- ["7SGLMath9Matrix4x4V", "Int32"]
+- ["7SGLMath9Matrix4x4V", "Int64"]
+- ["7SGLMath9Matrix4x4V", "Int8"]
+- ["7SGLMath9Matrix4x4V", "Iterator"]
+- ["7SGLMath9Matrix4x4V", "Matrix2x2"]
+- ["7SGLMath9Matrix4x4V", "Matrix2x3"]
+- ["7SGLMath9Matrix4x4V", "Matrix2x4"]
+- ["7SGLMath9Matrix4x4V", "Matrix3x2"]
+- ["7SGLMath9Matrix4x4V", "Matrix3x3"]
+- ["7SGLMath9Matrix4x4V", "Matrix3x4"]
+- ["7SGLMath9Matrix4x4V", "Matrix4x2"]
+- ["7SGLMath9Matrix4x4V", "Matrix4x3"]
+- ["7SGLMath9Matrix4x4V", "Matrix4x4"]
+- !private ["7SGLMath9Matrix4x4V", "SGLMath"]
+- ["7SGLMath9Matrix4x4V", "String"]
+- ["7SGLMath9Matrix4x4V", "SubSequence"]
+- ["7SGLMath9Matrix4x4V", "T"]
+- ["7SGLMath9Matrix4x4V", "UInt"]
+- ["7SGLMath9Matrix4x4V", "UInt16"]
+- ["7SGLMath9Matrix4x4V", "UInt32"]
+- ["7SGLMath9Matrix4x4V", "UInt64"]
+- ["7SGLMath9Matrix4x4V", "UInt8"]
+- ["7SGLMath9Matrix4x4V", "Vector4"]
+- ["7SGLMath9Matrix4x4V", "_Default_Iterator"]
+- ["7SGLMath9Matrix4x4V", "_Default_SubSequence"]
+- ["7SGLMath9Matrix4x4V", "_copyContents"]
+- ["7SGLMath9Matrix4x4V", "_copyToContiguousArray"]
+- ["7SGLMath9Matrix4x4V", "_customContainsEquatableElement"]
+- ["7SGLMath9Matrix4x4V", "_preprocessingPass"]
+- ["7SGLMath9Matrix4x4V", "debugDescription"]
+- ["7SGLMath9Matrix4x4V", "deinit"]
+- ["7SGLMath9Matrix4x4V", "determinant"]
+- !private ["7SGLMath9Matrix4x4V", "double2x4"]
+- !private ["7SGLMath9Matrix4x4V", "double3x4"]
+- !private ["7SGLMath9Matrix4x4V", "double4"]
+- !private ["7SGLMath9Matrix4x4V", "double4x4"]
+- ["7SGLMath9Matrix4x4V", "drop"]
+- ["7SGLMath9Matrix4x4V", "dropFirst"]
+- ["7SGLMath9Matrix4x4V", "dropLast"]
+- ["7SGLMath9Matrix4x4V", "elements"]
+- ["7SGLMath9Matrix4x4V", "filter"]
+- !private ["7SGLMath9Matrix4x4V", "float2x4"]
+- !private ["7SGLMath9Matrix4x4V", "float3x4"]
+- !private ["7SGLMath9Matrix4x4V", "float4"]
+- !private ["7SGLMath9Matrix4x4V", "float4x4"]
+- ["7SGLMath9Matrix4x4V", "forEach"]
+- ["7SGLMath9Matrix4x4V", "hashValue"]
+- ["7SGLMath9Matrix4x4V", "init"]
+- ["7SGLMath9Matrix4x4V", "inverse"]
+- ["7SGLMath9Matrix4x4V", "makeIterator"]
+- ["7SGLMath9Matrix4x4V", "map"]
+- !private ["7SGLMath9Matrix4x4V", "preconditionFailure"]
+- ["7SGLMath9Matrix4x4V", "prefix"]
+- ["7SGLMath9Matrix4x4V", "split"]
+- ["7SGLMath9Matrix4x4V", "subscript"]
+- ["7SGLMath9Matrix4x4V", "suffix"]
+- ["7SGLMath9Matrix4x4V", "transpose"]
+- !private ["7SGLMath9Matrix4x4V", "type"]
+- ["7SGLMath9Matrix4x4V", "underestimatedCount"]
+- !private ["7SGLMath9Matrix4x4V", "unsafeBitCast"]
+- !private ["7SGLMath9Matrix4x4V", "w"]
+- !private ["7SGLMath9Matrix4x4V", "x"]
+- !private ["7SGLMath9Matrix4x4V", "y"]
+- !private ["7SGLMath9Matrix4x4V", "z"]
+- !private ["7SGLMath10MatrixTypeP", "Array"]
+- !private ["7SGLMath10MatrixTypeP", "Double"]
+- ["7SGLMath10MatrixTypeP", "Element"]
+- !private ["7SGLMath10MatrixTypeP", "Float"]
+- ["7SGLMath10MatrixTypeP", "Iterator"]
+- !private ["7SGLMath10MatrixTypeP", "Matrix2x4"]
+- !private ["7SGLMath10MatrixTypeP", "Matrix3x4"]
+- !private ["7SGLMath10MatrixTypeP", "Matrix4x4"]
+- !private ["7SGLMath10MatrixTypeP", "SGLMath"]
+- !private ["7SGLMath10MatrixTypeP", "String"]
+- ["7SGLMath10MatrixTypeP", "SubSequence"]
+- !private ["7SGLMath10MatrixTypeP", "T"]
+- !private ["7SGLMath10MatrixTypeP", "Vector4"]
+- ["7SGLMath10MatrixTypeP", ""]
+- ["7SGLMath10MatrixTypeP", "_Default_Iterator"]
+- ["7SGLMath10MatrixTypeP", "_Default_SubSequence"]
+- ["7SGLMath10MatrixTypeP", "_copyContents"]
+- ["7SGLMath10MatrixTypeP", "_copyToContiguousArray"]
+- ["7SGLMath10MatrixTypeP", "_customContainsEquatableElement"]
+- ["7SGLMath10MatrixTypeP", "_preprocessingPass"]
+- ["7SGLMath10MatrixTypeP", "debugDescription"]
+- !private ["7SGLMath10MatrixTypeP", "double2x4"]
+- !private ["7SGLMath10MatrixTypeP", "double3x4"]
+- !private ["7SGLMath10MatrixTypeP", "double4"]
+- !private ["7SGLMath10MatrixTypeP", "double4x4"]
+- ["7SGLMath10MatrixTypeP", "drop"]
+- ["7SGLMath10MatrixTypeP", "dropFirst"]
+- ["7SGLMath10MatrixTypeP", "dropLast"]
+- ["7SGLMath10MatrixTypeP", "elements"]
+- ["7SGLMath10MatrixTypeP", "filter"]
+- !private ["7SGLMath10MatrixTypeP", "float2x4"]
+- !private ["7SGLMath10MatrixTypeP", "float3x4"]
+- !private ["7SGLMath10MatrixTypeP", "float4"]
+- !private ["7SGLMath10MatrixTypeP", "float4x4"]
+- ["7SGLMath10MatrixTypeP", "forEach"]
+- ["7SGLMath10MatrixTypeP", "hashValue"]
+- ["7SGLMath10MatrixTypeP", "init"]
+- !private ["7SGLMath10MatrixTypeP", "inverse"]
+- ["7SGLMath10MatrixTypeP", "makeIterator"]
+- ["7SGLMath10MatrixTypeP", "map"]
+- !private ["7SGLMath10MatrixTypeP", "preconditionFailure"]
+- ["7SGLMath10MatrixTypeP", "prefix"]
+- ["7SGLMath10MatrixTypeP", "split"]
+- !private ["7SGLMath10MatrixTypeP", "subscript"]
+- ["7SGLMath10MatrixTypeP", "suffix"]
+- !private ["7SGLMath10MatrixTypeP", "type"]
+- ["7SGLMath10MatrixTypeP", "underestimatedCount"]
+- !private ["7SGLMath10MatrixTypeP", "unsafeBitCast"]
+- !private ["7SGLMath10MatrixTypeP", "w"]
+- !private ["7SGLMath10MatrixTypeP", "x"]
+- !private ["7SGLMath10MatrixTypeP", "y"]
+- !private ["7SGLMath10MatrixTypeP", "z"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["s17MutableCollectionP", "makeIterator"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s22RandomAccessCollectionP", "makeIterator"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "makeIterator"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["7SGLMathAAC", "hash"]
+- !private ["s8SequenceP", "Array"]
+- !private ["s8SequenceP", "Double"]
+- ["s8SequenceP", "Element"]
+- !private ["s8SequenceP", "Float"]
+- ["s8SequenceP", "Iterator"]
+- !private ["s8SequenceP", "Matrix2x4"]
+- !private ["s8SequenceP", "Matrix3x4"]
+- !private ["s8SequenceP", "Matrix4x4"]
+- !private ["s8SequenceP", "SGLMath"]
+- !private ["s8SequenceP", "String"]
+- ["s8SequenceP", "SubSequence"]
+- !private ["s8SequenceP", "T"]
+- !private ["s8SequenceP", "Vector4"]
+- ["s8SequenceP", ""]
+- ["s8SequenceP", "_Default_Iterator"]
+- ["s8SequenceP", "_Default_SubSequence"]
+- ["s8SequenceP", "_copyContents"]
+- ["s8SequenceP", "_copyToContiguousArray"]
+- ["s8SequenceP", "_customContainsEquatableElement"]
+- ["s8SequenceP", "_preprocessingPass"]
+- ["s8SequenceP", "debugDescription"]
+- !private ["s8SequenceP", "double2x4"]
+- !private ["s8SequenceP", "double3x4"]
+- !private ["s8SequenceP", "double4"]
+- !private ["s8SequenceP", "double4x4"]
+- ["s8SequenceP", "drop"]
+- ["s8SequenceP", "dropFirst"]
+- ["s8SequenceP", "dropLast"]
+- ["s8SequenceP", "elements"]
+- ["s8SequenceP", "filter"]
+- !private ["s8SequenceP", "float2x4"]
+- !private ["s8SequenceP", "float3x4"]
+- !private ["s8SequenceP", "float4"]
+- !private ["s8SequenceP", "float4x4"]
+- ["s8SequenceP", "forEach"]
+- ["s8SequenceP", "hashValue"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "inverse"]
+- !private ["s8SequenceP", "joined"]
+- ["s8SequenceP", "makeIterator"]
+- ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "preconditionFailure"]
+- ["s8SequenceP", "prefix"]
+- ["s8SequenceP", "split"]
+- !private ["s8SequenceP", "subscript"]
+- ["s8SequenceP", "suffix"]
+- !private ["s8SequenceP", "type"]
+- ["s8SequenceP", "underestimatedCount"]
+- !private ["s8SequenceP", "unsafeBitCast"]
+- !private ["s8SequenceP", "w"]
+- !private ["s8SequenceP", "x"]
+- !private ["s8SequenceP", "y"]
+- !private ["s8SequenceP", "z"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["Su", "deinit"]
+- ["s6UInt16V", "deinit"]
+- ["s6UInt32V", "deinit"]
+- ["s6UInt64V", "deinit"]
+- ["s5UInt8V", "deinit"]
+- !private ["7SGLMath7Vector2V", "deinit"]
+- !private ["7SGLMath7Vector3V", "deinit"]
+- ["7SGLMath7Vector4V", "deinit"]
+- !private ["7SGLMath7Vector4V", "elements"]
+- !private ["7SGLMath7Vector4V", "hashValue"]
+- !private ["7SGLMath7Vector4V", "init"]
+- !private ["7SGLMath7Vector4V", "subscript"]
+- !private ["7SGLMath7Vector4V", "w"]
+- !private ["7SGLMath7Vector4V", "x"]
+- !private ["7SGLMath7Vector4V", "y"]
+- !private ["7SGLMath7Vector4V", "z"]
+- !private ["7SGLMath10VectorTypeP", "elements"]
+- !private ["7SGLMath10VectorTypeP", "hashValue"]
+- !private ["7SGLMath10VectorTypeP", "init"]
+- !private ["7SGLMath10VectorTypeP", "subscript"]
+- !private ["7SGLMath10VectorTypeP", "w"]
+- !private ["7SGLMath10VectorTypeP", "x"]
+- !private ["7SGLMath10VectorTypeP", "y"]
+- !private ["7SGLMath10VectorTypeP", "z"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "makeIterator"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "makeIterator"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["SC14simd_double4x4V", "inverse"]
+- !private ["SC13simd_float4x4V", "inverse"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "Sf"
+- "s8HashableP"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- !private "s25LosslessStringConvertibleP"
+- !private "7SGLMath9Matrix2x2V"
+- !private "7SGLMath9Matrix2x3V"
+- !private "7SGLMath9Matrix2x4V"
+- !private "7SGLMath9Matrix3x2V"
+- !private "7SGLMath9Matrix3x3V"
+- !private "7SGLMath9Matrix3x4V"
+- !private "7SGLMath9Matrix4x2V"
+- !private "7SGLMath9Matrix4x3V"
+- "7SGLMath9Matrix4x4V"
+- "7SGLMath10MatrixTypeP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "7SGLMathAAC"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- !private "7SGLMath7Vector2V"
+- !private "7SGLMath7Vector3V"
+- "7SGLMath7Vector4V"
+- !private "7SGLMath10VectorTypeP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s16_SwiftStringViewP"
+- !private "SC14simd_double4x4V"
+- !private "SC13simd_float4x4V"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "f8de9920c68b5362542f584f791254ca"

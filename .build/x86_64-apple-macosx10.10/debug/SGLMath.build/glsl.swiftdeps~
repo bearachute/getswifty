@@ -1,0 +1,708 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "vec2"
+- "dvec2"
+- "ivec2"
+- "uvec2"
+- "bvec2"
+- "vec3"
+- "dvec3"
+- "ivec3"
+- "uvec3"
+- "bvec3"
+- "vec4"
+- "dvec4"
+- "ivec4"
+- "uvec4"
+- "bvec4"
+- "mat2"
+- "dmat2"
+- "mat3"
+- "dmat3"
+- "mat4"
+- "dmat4"
+- "mat2x2"
+- "dmat2x2"
+- "mat2x3"
+- "dmat2x3"
+- "mat2x4"
+- "dmat2x4"
+- "mat3x2"
+- "dmat3x2"
+- "mat3x3"
+- "dmat3x3"
+- "mat3x4"
+- "dmat3x4"
+- "mat4x2"
+- "dmat4x2"
+- "mat4x3"
+- "dmat4x3"
+- "mat4x4"
+- "dmat4x4"
+- "radians"
+- "radians"
+- "degrees"
+- "degrees"
+- "sin"
+- "cos"
+- "tan"
+- "asin"
+- "acos"
+- "atan"
+- "atan"
+- "atan"
+- "atan"
+- "sinh"
+- "cosh"
+- "tanh"
+- "asinh"
+- "acosh"
+- "atanh"
+- "pow"
+- "exp"
+- "log"
+- "exp2"
+- "log2"
+- "sqrt"
+- "inversesqrt"
+- "abs"
+- "sign"
+- "floor"
+- "trunc"
+- "round"
+- "roundEven"
+- "ceil"
+- "fract"
+- "mod"
+- "mod"
+- "modf"
+- "min"
+- "min"
+- "max"
+- "max"
+- "clamp"
+- "clamp"
+- "mix"
+- "mix"
+- "mix"
+- "step"
+- "step"
+- "smoothstep"
+- "smoothstep"
+- "isnan"
+- "isinf"
+- "floatBitsToInt"
+- "floatBitsToUint"
+- "intBitsToFloat"
+- "uintBitsToFloat"
+- "fma"
+- "frexp"
+- "ldexp"
+- "packUnorm2x16"
+- "packSnorm2x16"
+- "packUnorm4x8"
+- "packSnorm4x8"
+- "unpackUnorm2x16"
+- "unpackSnorm2x16"
+- "unpackUnorm4x8"
+- "unpackSnorm4x8"
+- "packDouble2x32"
+- "unpackDouble2x32"
+- "packHalf2x16"
+- "unpackHalf2x16"
+- "length"
+- "distance"
+- "dot"
+- "cross"
+- "normalize"
+- "faceforward"
+- "reflect"
+- "refract"
+- "matrixCompMult"
+- "outerProduct"
+- "outerProduct"
+- "outerProduct"
+- "outerProduct"
+- "outerProduct"
+- "outerProduct"
+- "outerProduct"
+- "outerProduct"
+- "outerProduct"
+- "transpose"
+- "transpose"
+- "transpose"
+- "transpose"
+- "transpose"
+- "transpose"
+- "transpose"
+- "transpose"
+- "transpose"
+- "determinant"
+- "determinant"
+- "determinant"
+- "inverse"
+- "inverse"
+- "inverse"
+- "lessThan"
+- "lessThanEqual"
+- "greaterThan"
+- "greaterThanEqual"
+- "equal"
+- "notEqual"
+- "any"
+- "all"
+- "not"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "%"
+- !private "&"
+- !private "&&"
+- !private "&+"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "/"
+- !private "/="
+- !private "<"
+- !private "<<"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- !private ">>"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "BooleanVectorType"
+- "CastingPrecedence"
+- "Double"
+- "Float"
+- !private "FloatLiteralType"
+- "FloatingPoint"
+- "FloatingPointArithmeticType"
+- !private "Int16"
+- "Int32"
+- !private "Int8"
+- !private "IntegerLiteralType"
+- "Matrix2x2"
+- "Matrix2x3"
+- "Matrix2x4"
+- "Matrix3x2"
+- "Matrix3x3"
+- "Matrix3x4"
+- "Matrix4x2"
+- "Matrix4x3"
+- "Matrix4x4"
+- "MatrixType"
+- !private "SGLMath"
+- "SignedNumeric"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UInt16"
+- "UInt32"
+- !private "UInt64"
+- !private "UInt8"
+- "Vector2"
+- "Vector2b"
+- "Vector3"
+- "Vector3b"
+- "Vector4"
+- "Vector4b"
+- "VectorType"
+- "abs"
+- "acos"
+- "acosh"
+- "all"
+- "any"
+- "asin"
+- "asinh"
+- "atan"
+- "atanh"
+- "bvec2"
+- "bvec3"
+- "bvec4"
+- "ceil"
+- "clamp"
+- "cos"
+- "cosh"
+- "cross"
+- "degrees"
+- "determinant"
+- "distance"
+- "dmat2"
+- "dmat2x2"
+- "dmat2x3"
+- "dmat2x4"
+- "dmat3"
+- "dmat3x2"
+- "dmat3x3"
+- "dmat3x4"
+- "dmat4"
+- "dmat4x2"
+- "dmat4x3"
+- "dmat4x4"
+- "dot"
+- "dvec2"
+- "dvec3"
+- "dvec4"
+- "equal"
+- "exp"
+- "exp2"
+- "faceforward"
+- "floatBitsToInt"
+- "floatBitsToUint"
+- "floor"
+- "fma"
+- "fract"
+- "frexp"
+- "greaterThan"
+- "greaterThanEqual"
+- "intBitsToFloat"
+- "inverse"
+- "inversesqrt"
+- "isinf"
+- "isnan"
+- "ivec2"
+- "ivec3"
+- "ivec4"
+- "ldexp"
+- "length"
+- "lessThan"
+- "lessThanEqual"
+- "log"
+- "log2"
+- "mat2"
+- "mat2x2"
+- "mat2x3"
+- "mat2x4"
+- "mat3"
+- "mat3x2"
+- "mat3x3"
+- "mat3x4"
+- "mat4"
+- "mat4x2"
+- "mat4x3"
+- "mat4x4"
+- "matrixCompMult"
+- "max"
+- "min"
+- "mix"
+- "mod"
+- "modf"
+- "normalize"
+- "not"
+- "notEqual"
+- "outerProduct"
+- "packDouble2x32"
+- "packHalf2x16"
+- "packSnorm2x16"
+- "packSnorm4x8"
+- "packUnorm2x16"
+- "packUnorm4x8"
+- "pow"
+- !private "preconditionFailure"
+- "radians"
+- "reflect"
+- "refract"
+- "round"
+- "roundEven"
+- "sign"
+- "sin"
+- "sinh"
+- "smoothstep"
+- "sqrt"
+- "step"
+- "tan"
+- "tanh"
+- "transpose"
+- "trunc"
+- "uintBitsToFloat"
+- "unpackDouble2x32"
+- "unpackHalf2x16"
+- "unpackSnorm2x16"
+- "unpackSnorm4x8"
+- "unpackUnorm2x16"
+- "unpackUnorm4x8"
+- !private "unsafeBitCast"
+- "uvec2"
+- "uvec3"
+- "uvec4"
+- "vec2"
+- "vec3"
+- "vec4"
+- !private "||"
+depends-member:
+- !private ["7SGLMath14ArithmeticTypeP", "bitPattern"]
+- !private ["7SGLMath14ArithmeticTypeP", "init"]
+- !private ["7SGLMath14ArithmeticTypeP", "isInfinite"]
+- !private ["7SGLMath14ArithmeticTypeP", "isNaN"]
+- !private ["s19BinaryFloatingPointP", "bitPattern"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["7SGLMath18BitsOperationsTypeP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["7SGLMath17BooleanVectorTypeP", "init"]
+- !private ["7SGLMath17BooleanVectorTypeP", "reduce"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "bitPattern"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10ComparableP", "bitPattern"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isInfinite"]
+- !private ["s10ComparableP", "isNaN"]
+- !private ["7SGLMath7ComplexV", "deinit"]
+- !private ["s28CustomDebugStringConvertibleP", "BooleanVector"]
+- !private ["s28CustomDebugStringConvertibleP", "Element"]
+- !private ["s28CustomDebugStringConvertibleP", "FloatVector"]
+- !private ["s28CustomDebugStringConvertibleP", "Int32Vector"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt32Vector"]
+- !private ["s28CustomDebugStringConvertibleP", "bitPattern"]
+- !private ["s28CustomDebugStringConvertibleP", "determinant"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inverse"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "transpose"]
+- !private ["s28CustomDebugStringConvertibleP", "w"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "z"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bitPattern"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "bitPattern"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bitPattern"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "bitPattern"]
+- !private ["s9DecodableP", "init"]
+- !private ["Sd", "bitPattern"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "bitPattern"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "BooleanVector"]
+- !private ["s9EquatableP", "Element"]
+- !private ["s9EquatableP", "FloatVector"]
+- !private ["s9EquatableP", "Int32Vector"]
+- !private ["s9EquatableP", "UInt32Vector"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bitPattern"]
+- !private ["s9EquatableP", "determinant"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "inverse"]
+- !private ["s9EquatableP", "isInfinite"]
+- !private ["s9EquatableP", "isNaN"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "transpose"]
+- !private ["s9EquatableP", "w"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "y"]
+- !private ["s9EquatableP", "z"]
+- !private ["s25ExpressibleByArrayLiteralP", "BooleanVector"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", "FloatVector"]
+- !private ["s25ExpressibleByArrayLiteralP", "Int32Vector"]
+- !private ["s25ExpressibleByArrayLiteralP", "UInt32Vector"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "w"]
+- !private ["s25ExpressibleByArrayLiteralP", "x"]
+- !private ["s25ExpressibleByArrayLiteralP", "y"]
+- !private ["s25ExpressibleByArrayLiteralP", "z"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "bitPattern"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bitPattern"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "isInfinite"]
+- !private ["s27ExpressibleByIntegerLiteralP", "isNaN"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["Sf", "deinit"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "bitPattern"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s13FloatingPointP", "isInfinite"]
+- !private ["s13FloatingPointP", "isNaN"]
+- !private ["7SGLMath27FloatingPointArithmeticTypeP", "bitPattern"]
+- !private ["7SGLMath27FloatingPointArithmeticTypeP", "init"]
+- !private ["s8HashableP", "BooleanVector"]
+- !private ["s8HashableP", "Element"]
+- !private ["s8HashableP", "FloatVector"]
+- !private ["s8HashableP", "Int32Vector"]
+- !private ["s8HashableP", "UInt32Vector"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bitPattern"]
+- !private ["s8HashableP", "determinant"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "inverse"]
+- !private ["s8HashableP", "isInfinite"]
+- !private ["s8HashableP", "isNaN"]
+- !private ["s8HashableP", "reduce"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "transpose"]
+- !private ["s8HashableP", "w"]
+- !private ["s8HashableP", "x"]
+- !private ["s8HashableP", "y"]
+- !private ["s8HashableP", "z"]
+- !private ["Si", "deinit"]
+- !private ["s5Int16V", "deinit"]
+- !private ["s5Int16V", "init"]
+- ["s5Int32V", "deinit"]
+- !private ["s5Int64V", "deinit"]
+- !private ["s4Int8V", "deinit"]
+- !private ["s4Int8V", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "bitPattern"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["7SGLMath9Matrix2x2V", "deinit"]
+- !private ["7SGLMath9Matrix2x2V", "determinant"]
+- !private ["7SGLMath9Matrix2x2V", "init"]
+- !private ["7SGLMath9Matrix2x2V", "inverse"]
+- !private ["7SGLMath9Matrix2x2V", "transpose"]
+- !private ["7SGLMath9Matrix2x3V", "deinit"]
+- !private ["7SGLMath9Matrix2x3V", "init"]
+- !private ["7SGLMath9Matrix2x3V", "transpose"]
+- !private ["7SGLMath9Matrix2x4V", "deinit"]
+- !private ["7SGLMath9Matrix2x4V", "init"]
+- !private ["7SGLMath9Matrix2x4V", "transpose"]
+- !private ["7SGLMath9Matrix3x2V", "deinit"]
+- !private ["7SGLMath9Matrix3x2V", "init"]
+- !private ["7SGLMath9Matrix3x2V", "transpose"]
+- !private ["7SGLMath9Matrix3x3V", "deinit"]
+- !private ["7SGLMath9Matrix3x3V", "determinant"]
+- !private ["7SGLMath9Matrix3x3V", "init"]
+- !private ["7SGLMath9Matrix3x3V", "inverse"]
+- !private ["7SGLMath9Matrix3x3V", "transpose"]
+- !private ["7SGLMath9Matrix3x4V", "deinit"]
+- !private ["7SGLMath9Matrix3x4V", "init"]
+- !private ["7SGLMath9Matrix3x4V", "transpose"]
+- !private ["7SGLMath9Matrix4x2V", "deinit"]
+- !private ["7SGLMath9Matrix4x2V", "init"]
+- !private ["7SGLMath9Matrix4x2V", "transpose"]
+- !private ["7SGLMath9Matrix4x3V", "deinit"]
+- !private ["7SGLMath9Matrix4x3V", "init"]
+- !private ["7SGLMath9Matrix4x3V", "transpose"]
+- !private ["7SGLMath9Matrix4x4V", "deinit"]
+- !private ["7SGLMath9Matrix4x4V", "determinant"]
+- !private ["7SGLMath9Matrix4x4V", "init"]
+- !private ["7SGLMath9Matrix4x4V", "inverse"]
+- !private ["7SGLMath9Matrix4x4V", "transpose"]
+- !private ["7SGLMath10MatrixTypeP", "BooleanVector"]
+- !private ["7SGLMath10MatrixTypeP", "Element"]
+- !private ["7SGLMath10MatrixTypeP", "FloatVector"]
+- !private ["7SGLMath10MatrixTypeP", "Int32Vector"]
+- !private ["7SGLMath10MatrixTypeP", "UInt32Vector"]
+- !private ["7SGLMath10MatrixTypeP", "determinant"]
+- !private ["7SGLMath10MatrixTypeP", "init"]
+- !private ["7SGLMath10MatrixTypeP", "inverse"]
+- !private ["7SGLMath10MatrixTypeP", "subscript"]
+- !private ["7SGLMath10MatrixTypeP", "transpose"]
+- !private ["7SGLMath10MatrixTypeP", "w"]
+- !private ["7SGLMath10MatrixTypeP", "x"]
+- !private ["7SGLMath10MatrixTypeP", "y"]
+- !private ["7SGLMath10MatrixTypeP", "z"]
+- !private ["s7NumericP", "bitPattern"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "isInfinite"]
+- !private ["s7NumericP", "isNaN"]
+- !private ["7SGLMath10QuaternionV", "deinit"]
+- !private ["7SGLMathAAC", "SGLacos"]
+- !private ["7SGLMathAAC", "SGLacosh"]
+- !private ["7SGLMathAAC", "SGLasin"]
+- !private ["7SGLMathAAC", "SGLasinh"]
+- !private ["7SGLMathAAC", "SGLatan"]
+- !private ["7SGLMathAAC", "SGLatanh"]
+- !private ["7SGLMathAAC", "SGLceil"]
+- !private ["7SGLMathAAC", "SGLcos"]
+- !private ["7SGLMathAAC", "SGLcosh"]
+- !private ["7SGLMathAAC", "SGLexp"]
+- !private ["7SGLMathAAC", "SGLexp2"]
+- !private ["7SGLMathAAC", "SGLfloor"]
+- !private ["7SGLMathAAC", "SGLfma"]
+- !private ["7SGLMathAAC", "SGLfrexp"]
+- !private ["7SGLMathAAC", "SGLldexp"]
+- !private ["7SGLMathAAC", "SGLlog"]
+- !private ["7SGLMathAAC", "SGLlog2"]
+- !private ["7SGLMathAAC", "SGLmodf"]
+- !private ["7SGLMathAAC", "SGLpow"]
+- !private ["7SGLMathAAC", "SGLround"]
+- !private ["7SGLMathAAC", "SGLsin"]
+- !private ["7SGLMathAAC", "SGLsinh"]
+- !private ["7SGLMathAAC", "SGLsqrt"]
+- !private ["7SGLMathAAC", "SGLtan"]
+- !private ["7SGLMathAAC", "SGLtanh"]
+- !private ["7SGLMathAAC", "SGLtrunc"]
+- !private ["7SGLMathAAC", "floatFromHalf"]
+- !private ["7SGLMathAAC", "halfFromFloat"]
+- !private ["s8SequenceP", "BooleanVector"]
+- !private ["s8SequenceP", "Element"]
+- !private ["s8SequenceP", "FloatVector"]
+- !private ["s8SequenceP", "Int32Vector"]
+- !private ["s8SequenceP", "UInt32Vector"]
+- !private ["s8SequenceP", "determinant"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "inverse"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "transpose"]
+- !private ["s8SequenceP", "w"]
+- !private ["s8SequenceP", "x"]
+- !private ["s8SequenceP", "y"]
+- !private ["s8SequenceP", "z"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "bitPattern"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "isInfinite"]
+- !private ["s13SignedNumericP", "isNaN"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "bitPattern"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "isInfinite"]
+- !private ["s10StrideableP", "isNaN"]
+- !private ["s6UInt16V", "deinit"]
+- !private ["s6UInt16V", "init"]
+- ["s6UInt32V", "deinit"]
+- !private ["s6UInt32V", "init"]
+- !private ["s6UInt64V", "deinit"]
+- !private ["s6UInt64V", "init"]
+- !private ["s5UInt8V", "deinit"]
+- !private ["s5UInt8V", "init"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["7SGLMath7Vector2V", "deinit"]
+- !private ["7SGLMath7Vector2V", "init"]
+- !private ["7SGLMath7Vector2V", "subscript"]
+- !private ["7SGLMath7Vector2V", "x"]
+- !private ["7SGLMath7Vector2V", "y"]
+- !private ["7SGLMath7Vector3V", "deinit"]
+- !private ["7SGLMath7Vector3V", "init"]
+- !private ["7SGLMath7Vector3V", "subscript"]
+- !private ["7SGLMath7Vector3V", "x"]
+- !private ["7SGLMath7Vector3V", "y"]
+- !private ["7SGLMath7Vector3V", "z"]
+- !private ["7SGLMath7Vector4V", "deinit"]
+- !private ["7SGLMath7Vector4V", "init"]
+- !private ["7SGLMath7Vector4V", "subscript"]
+- !private ["7SGLMath7Vector4V", "w"]
+- !private ["7SGLMath7Vector4V", "x"]
+- !private ["7SGLMath7Vector4V", "y"]
+- !private ["7SGLMath7Vector4V", "z"]
+- !private ["7SGLMath10VectorTypeP", "BooleanVector"]
+- !private ["7SGLMath10VectorTypeP", "Element"]
+- !private ["7SGLMath10VectorTypeP", "FloatVector"]
+- !private ["7SGLMath10VectorTypeP", "Int32Vector"]
+- !private ["7SGLMath10VectorTypeP", "UInt32Vector"]
+- !private ["7SGLMath10VectorTypeP", "init"]
+- !private ["7SGLMath10VectorTypeP", "subscript"]
+- !private ["7SGLMath10VectorTypeP", "w"]
+- !private ["7SGLMath10VectorTypeP", "x"]
+- !private ["7SGLMath10VectorTypeP", "y"]
+- !private ["7SGLMath10VectorTypeP", "z"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "bitPattern"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "bitPattern"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "bitPattern"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bitPattern"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s14_StringElementP", "init"]
+depends-nominal:
+- !private "7SGLMath14ArithmeticTypeP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "7SGLMath18BitsOperationsTypeP"
+- !private "Sb"
+- !private "7SGLMath17BooleanVectorTypeP"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "7SGLMath7ComplexV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "Sf"
+- !private "s13FloatingPointP"
+- !private "7SGLMath27FloatingPointArithmeticTypeP"
+- !private "s8HashableP"
+- !private "Si"
+- !private "s5Int16V"
+- "s5Int32V"
+- !private "s5Int64V"
+- !private "s4Int8V"
+- !private "s25LosslessStringConvertibleP"
+- !private "7SGLMath9Matrix2x2V"
+- !private "7SGLMath9Matrix2x3V"
+- !private "7SGLMath9Matrix2x4V"
+- !private "7SGLMath9Matrix3x2V"
+- !private "7SGLMath9Matrix3x3V"
+- !private "7SGLMath9Matrix3x4V"
+- !private "7SGLMath9Matrix4x2V"
+- !private "7SGLMath9Matrix4x3V"
+- !private "7SGLMath9Matrix4x4V"
+- !private "7SGLMath10MatrixTypeP"
+- !private "s7NumericP"
+- !private "7SGLMath10QuaternionV"
+- !private "7SGLMathAAC"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "s6UInt16V"
+- "s6UInt32V"
+- !private "s6UInt64V"
+- !private "s5UInt8V"
+- !private "s15UnsignedIntegerP"
+- !private "7SGLMath7Vector2V"
+- !private "7SGLMath7Vector3V"
+- !private "7SGLMath7Vector4V"
+- !private "7SGLMath10VectorTypeP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "21ba3e360929922eb78ad51cbac41feb"

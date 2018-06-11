@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/master.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/Image.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/Image.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/Image.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/Image~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/Image.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/ImageBMP.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageBMP.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageBMP.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageBMP~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageBMP.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/ImageGIF.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageGIF.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageGIF.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageGIF~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageGIF.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/ImageLoader.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageLoader.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageLoader.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageLoader~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImageLoader.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/ImagePNG.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImagePNG.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImagePNG.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImagePNG~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/ImagePNG.swiftdeps"
+  },
+  "/Users/skt/Desktop/getswifty/.build/checkouts/Image.git--6271664722653506445/Sources/SGLImage/Inflate.swift": {
+    "dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/Inflate.d",
+    "object": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/Inflate.swift.o",
+    "swiftmodule": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/Inflate~partial.swiftmodule",
+    "swift-dependencies": "/Users/skt/Desktop/getswifty/.build/x86_64-apple-macosx10.10/debug/SGLImage.build/Inflate.swiftdeps"
+  }
+}
