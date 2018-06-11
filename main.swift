@@ -1,4 +1,5 @@
 // License: http://creativecommons.org/publicdomain/zero/1.0/
+// No I did not copy pasta I swear
 
 // Import the required libraries
 import CGLFW3
